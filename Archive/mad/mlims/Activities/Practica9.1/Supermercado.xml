@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<productos>
+	<producto categoria="alimento" precio="3.00">
+		<nombre>Lechuga</nombre>
+		<caducidad>20 días</caducidad>
+	</producto>
+
+	<producto categoria="limpieza" precio="5.00">
+		<nombre>Lejía</nombre>
+		<marca>Milagritos</marca>
+	</producto>
+
+	<producto categoria="higiene" precio="4.00">
+		<nombre>Pack x6 papel higiénico</nombre>
+		<marca>Deliplus</marca>
+	</producto>
+
+	<producto categoría="alcohol" precio="14.00">
+		<nombre>Jack Daniels 750cl</nombre>
+		<graduacion>40º</graduacion>
+		<marca>Jack Daniels</marca>
+	</producto>
+
+	<producto categoría="bebida" precio="2.00">
+		<nombre>Coca-Cola 2x2l pack ahorro</nombre>
+		<caducidad>100 días</caducidad>
+		<marca>Coca-Cola</marca>
+	</producto>
+</productos>

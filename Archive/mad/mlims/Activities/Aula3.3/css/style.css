@@ -1,0 +1,43 @@
+* {
+    font-size: large;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+caption {
+    color:red;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+tr:first-child td {
+    background-color: white;
+}
+
+td:first-child {
+    background-color: darkgreen;
+    font-size: x-large
+}
+
+td:first-child:first-letter {
+    font-size: inherit;
+}
+
+#recreo {
+    background-color: orange;
+}
+
+td:first-letter {
+    font-size: xx-large;
+}
+
+td:last-child:hover {
+    font-size: xx-large;
+}
+
+button {
+    font-weight: bold;
+}

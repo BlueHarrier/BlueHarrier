@@ -1,0 +1,34 @@
+# Apache + PHP + MariaDB
+version: "3.8"
+
+services:
+  web:
+    container_name: "Apache"
+    image: php-8.0-apache-mysql
+    build:
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./php:/var/www/html
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+
+  db:
+    container_name: "MariaDB"
+    image: mariadb
+    environment:
+      MARIADB_ROOT_PASSWORD: "root"
+      MARIADB_DATABASE: "tparkdb"
+    volumes:
+      - ./.mariadb:/var/lib/mysql
+
+  phpmyadmin:
+    container_name: "PHPMyAdmin"
+    image: phpmyadmin
+    environment:
+      PMA_HOST: db
+    ports:
+      - "8085:80"
+    depends_on:
+      - db

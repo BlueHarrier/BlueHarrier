@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE fichas [
+    <!ELEMENT fichas (ficha*)>
+    <!ELEMENT ficha (datos, foto, paginaWeb)>
+        <!ATTLIST ficha id CDATA #REQUIRED>
+    <!ELEMENT datos (nombre, apellido, direccion, telefonos?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT direccion (calle)>
+        <!ATTLIST direccion ciudad CDATA #REQUIRED>
+        <!ATTLIST direccion pais CDATA #REQUIRED>
+    <!ELEMENT calle (#PCDATA)>
+        <!ATTLIST calle numero CDATA #REQUIRED>
+        <!ATTLIST calle piso CDATA #IMPLIED>
+    <!ELEMENT telefonos (telefono*)>
+        <!ATTLIST telefonos prefijo CDATA "+34">
+    <!ELEMENT telefono (#PCDATA)>
+        <!ATTLIST telefono tipo CDATA #IMPLIED>
+    <!ELEMENT foto (#PCDATA)>
+    <!ELEMENT paginaWeb (#PCDATA)>
+]>
+
+<fichas>
+    <ficha id="ABC321">
+        <datos>
+            <nombre> Gabriel </nombre>
+            <apellido> Molina </apellido>
+            <direccion ciudad="Madrid" pais="Espanya"> 
+                <calle numero="4" piso="11">Calle de Suecia</calle>
+            </direccion>
+            <telefonos prefijo="+34">
+                <telefono tipo="fijo">917759454</telefono>
+                <telefono tipo="movil">626925999</telefono>
+                <telefono tipo="fijo">913728488</telefono>
+            </telefonos>
+        </datos>
+        <foto>http://www.quickmeme.com/img/7e/7e60d66d6c4318ed9c1395296d7f449de57ac410e2154259172254e5107e6f89.jpg</foto>
+        <paginaWeb>https://www.linkedin.com/in/víctor-develops/</paginaWeb>
+    </ficha>
+
+    <ficha id="ABC123">
+        <datos>
+            <nombre> Rodrigo </nombre>
+            <apellido> Dí­az </apellido>
+            <direccion ciudad="Burgos" pais="Castilla"> 
+                <calle numero="1" piso="1">Plaza Mayor</calle>
+            </direccion>
+            <telefonos prefijo="+34">
+                <telefono tipo="fijo">937759454</telefono>
+                <telefono tipo="movil">644925999</telefono>
+                <telefono tipo="fijo">934888488</telefono>
+            </telefonos>
+        </datos>
+        <foto>http://cache.gyazo.com/1d46318db61799cddc1c9b251aaf6c16.png</foto>
+        <paginaWeb>https://www.linkedin.com/in/víctor-develops/</paginaWeb>
+    </ficha>
+</fichas>

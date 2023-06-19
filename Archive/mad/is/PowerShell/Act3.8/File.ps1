@@ -1,0 +1,1 @@
+Get-Process | Out-File -FilePath 'C:\Users\DaciaLogan\Desktop\hello.txt';

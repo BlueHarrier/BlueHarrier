@@ -1,0 +1,42 @@
+html {
+    font-family: sans-serif;
+    background-color: lightslategray;
+}
+
+nav{
+    border: 1px;
+    border-style: solid;
+    border-color: brown;
+}
+
+ul > li{
+    display:inline;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-size: large;
+    background-color: white;
+}
+
+ul > ul{
+    display:none;
+    position:absolute;
+}
+
+ul > ul > li{
+    display:block;
+    background-color: darkgray;
+    border-style: solid;
+    border-color:gray;
+    border:1px;
+    margin:5px; 
+}
+
+ul li:hover + ul{
+    display:block;
+}
+
+ul li + ul:hover{
+    display:block;
+}

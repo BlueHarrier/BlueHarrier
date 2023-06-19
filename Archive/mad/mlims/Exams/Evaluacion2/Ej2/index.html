@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        * {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h2{
+            font-size: xx-large;
+        }
+        section{
+            height: 250px;
+            padding-top:25px;
+            padding-left: 25px;
+            padding-right: 25px;
+            background-color: lightgray;
+            border-radius: 20px;
+        }
+        #left{
+            width:50%;
+            float:left;
+        }
+        #right{
+            width:50%;
+            float:right;
+            text-align: right;
+        }
+        #right input{
+            width:100%;
+        }
+        #right input:focus{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h2>Registro</h2>
+        <div id="left">
+            Email<br/>
+            Password<br/>
+            Description<br/>
+        </div>
+        <div id="right">
+            <form>
+                <input name="email" type="text" size="50" maxlength="50"/><br/>
+                <input name="pass" type="password" size="50" maxlength="20"/><br/>
+                <input name="desc" type="text" size="50" maxlength="50"/><br/>
+                <input type="submit" value="Send"/>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

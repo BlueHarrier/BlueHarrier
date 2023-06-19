@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+    font-size: large;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    background-color: dodgerblue;
+}
+
+strong {
+    color:gold;
+}
+
+p {
+    background-color: blanchedalmond;
+}
+
+em {
+    color: maroon;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: bold;
+}

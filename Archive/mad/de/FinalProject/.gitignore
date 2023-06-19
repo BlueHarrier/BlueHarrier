@@ -1,0 +1,7 @@
+# Archivos de VSCode
+.vscode
+
+# Base de datos
+.mariadb
+
+# Estad atentos a carpetas que comiencen con ".", son carpetas ocultas y no se deben integrar, añadid sus nombres aquí

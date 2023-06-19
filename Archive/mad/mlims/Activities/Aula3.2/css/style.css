@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+}
+
+table{
+    width:100%;
+    border:1px;
+    border-collapse:collapse;
+    border-color:black;
+}
+
+img{
+    width: 10%;
+    height: 10%;
+}
+
+#cap{
+    background-color:gray;
+    font-size:xx-large;
+}
+
+#rcolor{
+    color:white;
+    background-color: red;
+    border-color:black;
+}
+
+#wcolor{
+    background-color: white;
+}
+
+#bcolor{
+    background-color: blue;
+}
+
+#ycolor{
+    background-color: yellow;
+    height:150px;
+}
+
+li{
+    text-align: left;
+    color:red;
+}

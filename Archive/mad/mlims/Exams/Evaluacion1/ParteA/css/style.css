@@ -1,0 +1,56 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image:url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+}
+
+header{
+    padding-left: 20%;
+    padding-right: 20%;
+    color:#292929;
+    padding-bottom:15em;
+}
+
+header > table{
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color:#292929;
+}
+
+header a:hover{
+    color:darkgray;
+}
+
+#principal{
+    padding-top: 10em;
+    text-align: center;
+    color:#292929;
+}
+
+#principal h1{
+    font-size:xxx-large;
+    font-weight: normal;
+}
+
+#principal h2{
+    font-size:xx-large;
+    font-weight: normal;
+}
+
+#contact{
+    margin-left:90%;
+    margin-top:30em;
+    position:fixed;
+    float:right;
+}
+
+#info{
+    padding-top:10em;
+    background-color: white;;
+}

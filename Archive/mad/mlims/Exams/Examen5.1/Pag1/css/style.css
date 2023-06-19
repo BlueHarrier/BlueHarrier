@@ -1,0 +1,40 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    text-align: center;
+}
+
+h2 img{
+    display:inline;
+    width:5%;
+}
+
+p::first-letter{
+    font-size:x-large;
+}
+
+img.l{
+    float: left;
+    width:5%;
+}
+
+img.r{
+    float: right;
+    width:5%;
+}
+
+ul{
+    padding-left: 20%;
+}
+
+li b{
+    font-style: italic;
+}

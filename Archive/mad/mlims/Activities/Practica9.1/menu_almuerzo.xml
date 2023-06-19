@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE menu_almuerzo [
+	<!ELEMENT menu_almuerzo (comida*)>
+	<!ELEMENT comida (nombre:, descripcion)>
+		<!ATTLIST comida precion CDATA #REQUIRED>
+		<!ATTLIST comida calorias CDATA #IMPLIED>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT descripcion (#PCDATA)>
+]>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Inscripción</title>
+    <p><header><font size="6"><center>HOJA DE INSCRIPCIÓN EN LOS CICLOS FORMATIVOS DE GRADO SUPERIO</center></font></header></p>
+</head>
+
+<body>
+    <p><form>
+        <fieldset style="background-color:plum;">
+            <legend>Datos personales</legend>
+            <table>
+                <tr>
+                    <td><label for="nombre">Nombre:</label></td>
+                    <td><label for="apellidos">Apellidos:</label></td>
+                    <td><label for="dni">DNI:</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="nombre" size="20" maxlength="20"/></td>
+                    <td><input type="text" name="apellidos" size="20" maxlength="20"/></td>
+                    <td><input type="text" name="dni" size="9" maxlength="9"/></td>
+                </tr>
+                <tr>
+                    <td><label for="localidad">Localidad Nacimiento:</label></td>
+                    <td><label for="provincia">Provincia:</label></td>
+                    <td><label for="nacimiento">Fecha Nacimiento:</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="localidad" size="10" maxlength="10"/></td>
+                    <td><select id="provincia" name="provincia">
+                        <option value="" selected>-selecciona-</option>
+                        <option value="1">A Coruña</option>
+                        <option value="2">Alacant</option>
+                        <option value="3">Albacete</option>
+                        <option value="4">Almería</option>
+                        <option value="5">Araba</option>
+                        <option value="6">Asturias</option>
+                        <option value="7">Ávila</option>
+                        <option value="8">Badajoz</option>
+                        <option value="9">Barcelona</option>
+                        <option value="10">Bizkaia</option>
+                        <option value="11">Burgos</option>
+                        <option value="12">Cáceres</option>
+                        <option value="13">Cádiz</option>
+                        <option value="14">Cantabria</option>
+                        <option value="15">Castelló</option>
+                        <option value="16">Ceuta</option>
+                        <option value="17">Ciudad Real</option>
+                        <option value="18">Córdoba</option>
+                        <option value="19">Cuenca</option>
+                        <option value="20">Gipuzcoa</option>
+                        <option value="21">Girona</option>
+                        <option value="22">Granada</option>
+                        <option value="23">Guadalajara</option>
+                        <option value="24">Huelva</option>
+                        <option value="25">Huesca</option>
+                        <option value="26">Illes Balears</option>
+                        <option value="27">Jaén</option>
+                        <option value="28">La Rioja</option>
+                        <option value="29">las Palmas</option>
+                        <option value="30">León</option>
+                        <option value="31">Lleida</option>
+                        <option value="32">Lugo</option>
+                        <option value="33">Madrid</option>
+                        <option value="34">Málaga</option>
+                        <option value="35">Melilla</option>
+                        <option value="36">Murcia</option>
+                        <option value="37">Navarra</option>
+                        <option value="38">Ourense</option>
+                        <option value="39">Palencia</option>
+                        <option value="40">Pontevedra</option>
+                        <option value="41">Salamanca</option>
+                        <option value="42">Santa Cruz de Tenerife</option>
+                        <option value="43">Segovia</option>
+                        <option value="44">Sevilla</option>
+                        <option value="45">Soria</option>
+                        <option value="46">Tarragona</option>
+                        <option value="47">Teruel</option>
+                        <option value="48">Toledo</option>
+                        <option value="49">València</option>
+                        <option value="50">Valladolid</option>
+                        <option value="51">Zamora</option>
+                        <option value="52">Zaragoza</option>
+                    </select></td>
+                    <td><input type="date" name="nacimiento"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="direccion">Dirección:</label></td>
+                    <td><label for="postal">Código postal:</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" name="direccion" size="40" maxlength="40"></td>
+                    <td><input type="text" name="postal" size="5" maxlength="5"/></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="background-color:goldenrod;">
+            <legend>Forma de acceso</legend>
+            <ul type="none">
+                <li><input type="radio" name="acceso"/><label for="acceso">Directo</label></li>
+                <ul type="none">
+                    <li><input type="radio" name="accdirecto"/><label for="accdirecto">Bachillerato LOGSE Modalidad: </label><input type="text" name="modalidad" size="8" maxlength="8"/></li>
+                    <li><input type="radio" name="accdirecto"/><label for="accdirecto">Bachillerato experimental</label></li>
+                    <li><input type="radio" name="accdirecto"/><label for="accdirecto">COU Opción: </label><input type="text" name="modalidad" size="8" maxlength="8"/></li>
+                    <li><input type="radio" name="accdirecto"/><label for="accdirecto">FP2</label></li>
+                    <li><input type="radio" name="accdirecto"/><label for="accdirecto">Otro (especifique): </label><input type="text" name="modalidad" size="8" maxlength="8"/></li>
+                </ul>
+                <li><input type="radio" name="acceso"><label for="acceso">Prueba libre</label></li>
+            </ul>
+        </fieldset>
+        <fieldset style="background-color:tomato;">
+            <legend>Documentos adjuntos</legend>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="adjdni"/><label for="adjdni">Fotocopia DNI</label></td>
+                    <td><input type="checkbox" name="adjcert"/><label for="adjcert">Certificado Académico</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox" name="adjotro"><label for="adjotro">Otros documentos (especifique): </label><input type="text" size="8" maxlength="8"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form></p>
+</body>
+
+</html>

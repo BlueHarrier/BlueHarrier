@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+	<equipo>
+		<operario>Operario</operario>
+		<so>Windows</so>
+		<marca>Dell</marca>
+		<modelo>123456789</modelo>
+		<tipo>Portátil</tipo>
+		<hardware>
+			<cpu>4@2.5 Hz</cpu>
+			<ram>8 GB</ram>
+			<hdd>1 TB</hdd>
+			<ssd>256 GB</ssd>
+		</hardware>
+		<conexión>WiFi</conexión>
+	</equipo>
+	<equipo>
+		<operario>Jefe</operario>
+		<so>Linux</so>
+		<marca>MSI</marca>
+		<modelo>987654321</modelo>
+		<tipo>Sobremesa</tipo>
+		<hardware>
+			<cpu>8@4.2 Hz</cpu>
+			<ram>16 GB</ram>
+			<hdd>2 TB</hdd>
+			<ssd>1 TB</ssd>
+		</hardware>
+		<conexión>Ethernet</conexión>
+	</equipo>
+</equipos>

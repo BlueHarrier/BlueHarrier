@@ -1,0 +1,50 @@
+/*Principal*/
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+
+/*Navegación*/
+nav{
+    background-color: darkcyan;
+    width:100%;
+    color:white;
+}
+
+nav > table{
+    width:100%;
+}
+
+nav > table td{
+    width:20%;
+    text-align:center;
+    vertical-align: top;
+    border-style: dotted;
+    border-color:black;
+}
+
+nav > table a:visited, nav > table a:link{
+    color:white;
+}
+
+nav > table td > ul{
+    list-style: none;
+    display:none;
+}
+
+nav > table td:hover > ul{
+    display:block;
+}
+
+nav > table td > ul:hover{
+    display:block;
+}
+
+nav > table td > ul > li{
+    text-align: left;
+}

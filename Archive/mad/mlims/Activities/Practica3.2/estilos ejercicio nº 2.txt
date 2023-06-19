@@ -1,0 +1,8 @@
+Generar el fichero css/basicos.css con los siguientes valores
+
+*h1 color maroon, h2 color azul, h3 color negro
+*Etiquetas h1, h2 y h3:
+ - Ancho fuente normal
+ - Fuente: Arial, Helvética
+*Toda etiqueta p con atributo clase destacado: colo rojo
+

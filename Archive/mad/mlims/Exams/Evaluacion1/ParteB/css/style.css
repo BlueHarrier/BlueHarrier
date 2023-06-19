@@ -1,0 +1,11 @@
+fieldset{
+    background-color:mediumpurple;
+}
+
+fieldset + fieldset{
+    background-color:orange;
+}
+
+fieldset + fieldset + fieldset{
+    background-color:coral;
+}

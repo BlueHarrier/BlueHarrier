@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" type="text/css" href="./css/style.css"/>
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <table>
+                <tr>
+                    <td><label for="nombre">Nombre:</label></td>
+                    <td><label for="apellido">Apellido:</label></td>
+                    <td><label for="dni">DNI:</label></td>
+                </tr>
+                <tr>
+                    <td><input name="nombre" type="text" size="20" maxlength="20"/></td>
+                    <td><input name="apellido" type="text" size="20" maxlength="20"/></td>
+                    <td><input name="dni" type="text" size="9" maxlength="9"/></td>
+                </tr>
+                <tr>
+                    <td><label for="localidad">Localidad residencia:</label></td>
+                    <td><label for="provincia">Provincia:</label></td>
+                    <td><label for="nacimiento">F. de nacimiento:</label></td>
+                </tr>
+                <tr>
+                    <td><input name="localidad" type="text" size="20" maxlength="30"/></td>
+                    <td><select name="provincia">
+                        <option value="" selected>--Selecciona</option>
+                        <option value="1">Badajoz</option>
+                        <option value="2">Cáceres</option>
+                    </select></td>
+                    <td><input name="nacimiento" type="date"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="direccion">Dirección:</label></td>
+                    <td><label for="postal">Cod. Postal</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input name="direccion" type="text" size="40" maxlength="60"/></td>
+                    <td><input name="postal" type="text" maxlength="5" size="5"/></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Forma de acceso</legend>
+            <ul type="none">
+                <li><input type="radio" name="acceso"/><label for="acceso">Directo</label></li>
+                <ul type="none">
+                    <li>
+                        <input type="radio" name="acceso"/><label for="acceso">
+                            Bachillerato LOGSE Modalidad:<input name="modalidad" type="text"/>
+                        </label>
+                    </li>
+                    <li><input type="radio" name="acceso"/><label for="acceso">Bachillerato experimental</label></li>
+                    <li>
+                        <input type="radio" name="acceso"/><label for="acceso">
+                            COU opción:<input name="modalidad" type="text"/>
+                        </label>
+                    </li>
+                    <li><input type="radio" name="acceso"/><label for="acceso">FP2</label></li>
+                    <li>
+                        <input type="radio" name="acceso"/><label for="acceso">
+                            Otra (especifique):<input name="modalidad" type="text"/>
+                        </label>
+                    </li>
+                </ul>
+                <li><input type="radio" name="acceso"/><label for="acceso">Prueba libre</label></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Documentos adjuntos</legend>
+            <table>
+                <tr>
+                    <td><input name="foto_dni" type="checkbox"/><label for="foto_dni">Fotocopia DNI</label></td>
+                    <td><input name="certificado" type="checkbox"/><label for="certificado">Certificado académico</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input name="otros_doc" type="checkbox"/><label for="otros_doc">Otros documentos (especifique):</label>
+                        <input name="otros_doc_nombre" type="text" maxlength="50"/>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

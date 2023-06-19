@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE CATS[
+    <!ELEMENT CATS (CAT*)>
+    <!ELEMENT CAT (NAME, AGE, ALTERED, DECLAWED?, LICENSE, OWNER)>
+        <!ATTLIST CAT breed CDATA #REQUIRED>
+    <!ELEMENT NAME (#PCDATA)>
+    <!ELEMENT AGE (#PCDATA)>
+    <!ELEMENT ALTERED (#PCDATA)>
+    <!ELEMENT DECLAWED (#PCDATA)>
+    <!ELEMENT LICENSE (#PCDATA)>
+    <!ELEMENT OWNER (#PCDATA)>
+]>
+
+<CATS>
+    <CAT breed="siamese">
+        <NAME>Izzy</NAME>
+        <AGE>6</AGE>
+        <ALTERED>yes</ALTERED>
+        <DECLAWED>no</DECLAWED>
+        <LICENSE>Izz138bod</LICENSE>
+        <OWNER>Colin Wilcox</OWNER>
+    </CAT>
+
+    <CAT breed="egyptian">
+        <NAME>Bastet</NAME>
+        <AGE>3</AGE>
+        <ALTERED>unknown</ALTERED>
+        <LICENSE>Bass143bod</LICENSE>
+        <OWNER>Amon Ra</OWNER>
+    </CAT>
+
+    <CAT breed="american">
+        <NAME>America</NAME>
+        <AGE>10</AGE>
+        <ALTERED>no</ALTERED>
+        <DECLAWED>yes</DECLAWED>
+        <LICENSE>Ame222bod</LICENSE>
+        <OWNER>Captain America</OWNER>
+    </CAT>
+</CATS>

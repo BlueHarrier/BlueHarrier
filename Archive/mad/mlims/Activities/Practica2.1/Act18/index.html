@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información sobre el producto</title>
+</head>
+
+<body>
+    <h1>Información sobre el producto</h1>
+    <form>
+        <fieldset>
+            <legend>Datos básicos</legend>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="nombre"><br><br>
+            <label for="descripcion">Descripción</label><br>
+            <textarea cols="50" rows="7"></textarea><br><br>
+            <label for="foto">Foto </label><input type="file" name="foto"><br><br>
+            <input type="checkbox" name="visitas"><label for="visitas">Añadir contador de visitas</label>
+        </fieldset>
+        <fieldset>
+            <legend>Datos económicos</legend>
+            <label for="precio">Precio </label><input type="text" maxlength="3" size="3">€
+            &nbsp;&nbsp;&nbsp;&nbsp;<label for="impuestos">Impuestos </label>
+            <select id="impuestos" name="impuestos">
+                <option value="0.04">4%</option>
+                <option value="0.07">7%</option>
+                <option value="0.16">16%</option>
+                <option value="0.25">25%</option>
+            </select><br><br>
+            <label for="promocion">Promoción</label><br>
+            <input type="radio" name="promocion" value="ninguno" checked>Ninguno<br>
+            <input type="radio" name="promocion" value="transgratis">Transporte gratuito<br>
+            <input type="radio" name="promocion" value="descuento">Descuento 5%<br>
+        </fieldset>
+    </form>
+</body>
+
+</html>

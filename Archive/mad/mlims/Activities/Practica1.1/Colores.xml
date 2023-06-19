@@ -1,0 +1,22 @@
+<colores font = Arial2>
+	<color font_color = c_red>
+		<nombre>Rojo</nombre>
+		<rgbhex>ff0000</rgbhex>
+	</color>
+	<color font_color = c_green>
+		<nombre>Verde</nombre>
+		<rgbhex>00ff00</rgbhex>
+	</color>
+	<color font_color = c_blue>
+		<nombre>Azul</nombre>
+		<rgbhex>0000ff</rgbhex>
+	</color>
+	<color font_color = c_black>
+		<nombre>Negro</nombre>
+		<rgbhex>000000</rgbhex>
+	</color>
+	<color font_color = c_white>
+		<nombre>Blanco</nombre>
+		<rgbhex>ffffff</rgbhex>
+	</color>
+</colores>

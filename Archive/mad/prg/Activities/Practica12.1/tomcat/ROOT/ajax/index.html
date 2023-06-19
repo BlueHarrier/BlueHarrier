@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ajax con jQuery</title>
+	<style>
+		.div-center{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+		}
+		#calculator{
+			margin: 2px;
+		}
+	</style>
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#clear").click(function(event) {
+				$("#expression").val("");
+				$("#result").html("&nbsp");
+			});
+
+			$("#operate").click(function(event) {
+                let expression = $('#expression').val(); // capta contenido de id='texto'
+                $.get("Calculadora",
+				{
+                    operation: expression
+                },
+				function (responseText) {
+                    $('#result').html(responseText);
+                })
+			});
+		});
+	</script>
+</head>
+<body class="div-center">
+	<h1>Calculadora de pila</h1>
+	<div id="calculator">
+		<label for="ajax">Ecuación: </label>
+		<input type="text" name="ajax" id="expression"/>
+	</div>
+	<div>
+		<button type="button" id="clear">Borrar</button>
+		<button type="submit" id="operate">Calcular</button>
+	</div>
+	<div id="result">&nbsp;</div>
+	<footer>
+		<a href="/Ejercicios/formularios.jsp">Ejercicio con JSP</a>
+	</footer>
+</body>
+</html>

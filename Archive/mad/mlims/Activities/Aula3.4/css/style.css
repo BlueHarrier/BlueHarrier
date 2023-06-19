@@ -1,0 +1,39 @@
+ul,li{
+    list-style: none;
+}
+
+ul.miMenu{
+    list-style-type: none;
+    background-color: pink;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+ul.miMenu li{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+ul.miMenu li a{
+    border: 1px dotted gray;
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
+
+ul.miMenu li ul{
+    display: none;
+}
+
+ul.miMenu li:hover > ul{
+    display: block;
+}
+
+ul.miMenu li ul li{
+    position: relative;
+}
+
+ul.miMenu > li{
+    float: left;
+}

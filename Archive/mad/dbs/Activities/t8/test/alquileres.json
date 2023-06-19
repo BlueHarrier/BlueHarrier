@@ -1,0 +1,8 @@
+{"pelicula_id": "00000001","dvd_id": "00000001-002","socio_id": "20000001","f_alquiler": "2020-10-10","f_dev": "2020-10-15"}
+{"pelicula_id": "00000002","dvd_id": "00000002-003","socio_id": "20000002","f_alquiler": "2023-04-09","f_dev": "2023-04-12"}
+{"pelicula_id": "00000003","dvd_id": "00000003-001","socio_id": "20000003","f_alquiler": "2023-03-25","f_dev": "2023-04-01"}
+{"pelicula_id": "00000003","dvd_id": "00000003-002","socio_id": "20000003","f_alquiler": "2023-04-25","f_dev": "2023-05-01"}
+{"pelicula_id": "00000001","dvd_id": "00000001-001","socio_id": "20000004","f_alquiler": "2023-05-11","f_dev": null}
+{"pelicula_id": "00000001","dvd_id": "00000001-002","socio_id": "20000002","f_alquiler": "2023-05-01","f_dev": "2023-05-05"}
+{"pelicula_id": "00000003","dvd_id": "00000003-005","socio_id": "20000001","f_alquiler": "2023-02-01","f_dev": "2023-02-05"}
+{"pelicula_id": "00000002","dvd_id": "00000002-002","socio_id": "20000003","f_alquiler": "2023-05-10","f_dev": null}

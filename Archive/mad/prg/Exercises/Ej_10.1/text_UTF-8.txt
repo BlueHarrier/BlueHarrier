@@ -1,0 +1,8 @@
+Prueba de especiales -> á é í ó ú Á É Í Ó Ú / ñ Ñ <-
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus nec nunc in tincidunt.
+Nulla tincidunt, lorem id lobortis lobortis, enim dui malesuada orci, sed scelerisque quam
+lorem in elit. Sed pretium turpis magna, nec finibus est tempus vel. Morbi est enim,
+convallis quis dui nec, lobortis tempus nisl. Sed posuere quam quis tempor eleifend. Integer
+risus tellus, convallis nec lacus quis, mattis volutpat lorem. Nunc viverra, nunc ac semper
+eleifend, ligula diam dictum mauris, sit amet tempor ante tellus venenatis lacus. Cras eu
+luctus eros. In volutpat felis vel enim malesuada, quis ornare sapien gravida. 

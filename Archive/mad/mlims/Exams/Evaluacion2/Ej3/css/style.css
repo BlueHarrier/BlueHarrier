@@ -1,0 +1,247 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+body{
+    margin:0;
+}
+
+header{
+    border:0;
+    width:100%;
+    background-image: url("../img/fondo.jpg");
+    background-size:cover;
+    background-position-y: -175px;
+    width:100%;
+    height:600px;
+}
+
+#top-line{
+    display: block;
+    padding-bottom: 20px;
+    padding-top:20px;
+    width:100%;
+}
+
+#top-line #top-title{
+    font-size: x-large;
+    display: block;
+    width:fit-content;
+    float:left;
+}
+
+#top-line ul{
+    display:inline;
+}
+
+#top-line li{
+    font-size: large;
+    display:block;
+    width:fit-content;
+    float:right;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#top-line li a:link, #top-line li a:visited{
+    color:inherit;
+    text-decoration: none;
+    font-weight:500px;
+}
+
+#main-screen{
+    display:block;
+    padding-top:100px;
+}
+
+#main-screen h1{
+    text-align: center;
+}
+
+#main-screen h2{
+    font-size:xx-large;
+    text-align: center;
+}
+
+h2{
+    display: block;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: normal;
+}
+
+#show-work{
+    margin:auto;
+    width:200px;
+    height:48px;
+    text-align: center;
+    padding-top:20px;
+    background-color:dodgerblue;
+    color:white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+#show-work a:link, #show-work a:visited{
+    text-decoration: none;
+    color:inherit;
+}
+
+#whatsapp{
+    position:fixed;
+    right:0%;
+    bottom:5%;
+}
+
+section{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+article{
+    display:block;
+}
+
+#description{
+    display:block;
+    height:500px;
+}
+
+#description #article-image{
+    width:50%;
+    float:left;
+    margin:auto;
+    text-align: center;
+}
+
+#description article{
+    width:50%;
+    float:right;
+}
+
+#description article p{
+    padding-left:100px;
+    padding-right: 50px;
+}
+
+#services{
+    margin: 20px;
+    width:100%;
+    height:700px;
+}
+
+#tiled-art-1, #tiled-art-2{
+    border-radius: 10px;
+    margin:auto;
+    margin-left:5%;
+    height:350px;
+    margin-bottom:25px;
+    width:25%;
+    float:left;
+}
+
+#services h3, #services p{
+    color:white;
+    padding: 15px;
+}
+
+#tiled-art-1{
+    background-color:mediumorchid;
+}
+
+#tiled-art-2{
+    background-color:dodgerblue;
+}
+
+#services img{
+    display:block;
+    margin:auto;
+    margin-right:0;
+    
+}
+
+#jobs img{
+    width:24%;
+    text-align: center;
+}
+
+#jobs #arrows{
+    text-align: center;
+    margin:auto;
+    width:80px;
+}
+
+#jobs #arrows span{
+    font-weight: bold;
+    display:block;
+    width:20px;
+    margin:auto;
+    margin-left:10px;
+    
+    height:25px;
+    border-radius: 5px;
+    float:left;
+}
+
+#jobs #arrows span:hover{
+    background-color: gray;
+}
+
+#work-with-me #art-work{
+    text-align: center;
+    width:33%;
+    float:left;
+}
+
+#work-with-me #art-work p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#blog #art-blog{
+    width:25%;
+    height:500px;
+    float:left;
+    margin-left:15%;
+    border-style: solid;
+    border-color:gray;
+}
+
+#blog #art-blog img{
+    width:100%;
+}
+
+#blog #art-blog h2{
+    padding-left:5px;
+    padding-right: 5px;
+}
+
+#blog #art-blog p{
+    color:gray;
+    padding-left:5px;
+    padding-right: 5px;
+}
+
+#blog{
+    height:800px;
+}
+
+footer{
+    background-color: mediumorchid;
+}
+
+footer h2{
+    color:white;
+}
+
+footer #contact-button{
+    margin:auto;
+    background-color: dodgerblue;
+    text-align: center;
+    color:white;
+    width:200px;
+    height:50px;
+    padding-top: 15px;
+    border-radius: 10px;
+}

@@ -1,0 +1,13 @@
+1.-Todo el texto debe tener las siguientes caracteristicas
+	- tipo de letra: Courier New, Courier, monospace
+2.-La frase: "Este parrafo se selecciona con el selector #id" debe ser de color gris
+3.-El texto "especial" debe tener color azul
+4.-Las frases "varios elementos" (que está cada una de ellas en un parrafo) tienen los siguientes estilos: border: 1px solid orange;
+	* Debes dar estilos a las dos frases con una sola sentencia en tu css
+5.-La lisa anidada tiene las siguientes caracteristicas
+	1.-Los elementos primero, segundo tiene color rojo
+	2.-Los elementos 2.1, 2.2 tiene color verde.
+6.El color de las imagenes es "rosa" y "azul"
+7.Los bordes de ambas imagenes son: border: 5px solid black;
+
+Intenta dar estilos de la manera más eficiente posible (pensando en la reutilización del archivo CSS y en la posibilidad de incorporar nuevos elementos a la página)

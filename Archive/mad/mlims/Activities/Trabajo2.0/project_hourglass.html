@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <title>The Harrier's Nest - Hourglass Framework</title>
+</head>
+
+<body>
+    <header>
+        <h1><a href="./index.html">El Nido del Aguilucho</a></h1>
+        <nav>
+            <ul class="nav-level-1">
+                <li>Proyectos</li>
+                <ul class="nav-level-2">
+                    <li>+ Software</li>
+                    <ul class="nav-level-3" style="left:100%;">
+                        <li><a href="./project_hourglass.html">Hourglass Framework</a></li>
+                        <li><a href="./project_shadergraph.html">Harrier's Shader Graph</a></li>
+                    </ul>
+                    <li><a href="./project_anywhere.html">Anywhere</a></li>
+                    <li><a href="./project_pangea.html">Pangea</a></li>
+                </ul>
+                <li>Contacto</li>
+                <ul class="nav-level-2"  style="left:33%;">
+                    <li><a href="./contact_socials.html">RRSS</a></li>
+                    <li><a href="./contact_requests.html">Peticiones</a></li>
+                    <li><a href="./contact_suggestions.html">Sugerencias</a></li>
+                    <li><a href="./contact_newspaper.html">Boletín informativo</a></li>
+                </ul>
+                <li>Galería</li>
+                <ul class="nav-level-2" style="left:66%;">
+                    <li><a href="./gallery_art.html">Arte</a></li>
+                    <li><a href="./gallery_pictures.html">Fotos</a></li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <style>
+            img{
+                width:33%;
+            }
+        </style>
+        <h2>Hourglass Framework</h2>
+        <p>
+            Surgido en 2018, este marco de trabajo dota al motor Game Maker de la capacidad de
+                mover elementos 3D manteniendo la esencia y patrones de programación y diseño
+                originales. El marco consta de dos partes:
+        </p>
+        <h3>La librería</h3>
+        <p>
+            Internamente, Game Maker necesita una forma de ejecutar los elementos básicos que 
+            componen el motor. Para ello, la librería consta de unos shaders básicos de PBR, 
+            un sistema de control de capas 3D y funciones y clases para controlar objetos 
+            tridimensionales. Además del sistema gráfico, también constará de un motor de colisiones 
+            para este nuevo espacio.
+        </p>
+        <h3>El editor</h3>
+        <p>
+            Lamentablemente, Game Maker Studio no dispone de soporte nativo para integrar nuevos 
+            elementos de este estilo. Para ello es necesario un editor externo encargado de 
+            cargar, parsear y comprimir los archivos útiles en un solo .dat del cual el juego 
+            cargará el conjunto de assets preparados, incluyendo modelos, entornos, salas y texturas.
+        </p>
+        <p>
+            Este editor también posee una variación del Harrier's Shader Graph, capacitado y 
+            optimizado para manejar iluminación 3D, armaduras y blendshapes.
+        </p>
+        <h3>Capturas</h3>
+        <div class="gallery">
+            <img src="./img/pics/hg6.jpg"/>
+            <img src="./img/pics/hg5.jpg"/>
+            <img src="./img/pics/hg4.jpg"/>
+            <img src="./img/pics/hg3.jpg"/>
+            <img src="./img/pics/hg2.jpg"/>
+            <img src="./img/pics/hg1.jpg"/>
+        </div>
+    </article>
+
+    <footer>
+        <p>
+            Página creada por Daniel "BlueHarrier" Píriz<br>
+            Tlf.: +34 728 926 241 <i>(inventado)</i><br>
+            Email.: <a href="mailto:dpirizc01@iescastelar.com">dpirizc01@iescastelar.com</a><br>
+            Dir.: Av. Santiago Ramón y Cajal, 2, 06001 Badajoz<br>
+        </p>
+    </footer>
+</body>
+
+</html>

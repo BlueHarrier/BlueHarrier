@@ -1,0 +1,2 @@
+int_number = 26
+print(f"El tipo de la variable es {type(int_number)}.")

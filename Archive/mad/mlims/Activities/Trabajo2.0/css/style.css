@@ -1,0 +1,118 @@
+/*Page background*/
+body{
+    background-image:url(../img/bg.png);
+    background-repeat:repeat-y;
+    background-position-x:center;
+    background-size:cover;
+}
+
+/*Headers and title*/
+h1{
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+}
+
+/*Navigation*/
+ul.nav-level-1{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:whitesmoke;
+}
+
+ul.nav-level-1 > li{
+    float:left;
+    width:33%;
+    text-align:center;
+}
+
+ul.nav-level-1 > li:hover{
+    background-color:dodgerblue;
+}
+
+ul.nav-level-2{
+    list-style-type:none;
+    display:none;
+    width:30.5%;
+    top:100px;
+    position:absolute;
+    z-index:auto;
+    border:3px;
+    border-style:double;
+    background-color:rgba(182, 182, 182, 0.9);
+}
+
+ul.nav-level-2 li{
+    margin-left:-40px;
+}
+
+ul.nav-level-1 li:hover + ul.nav-level-2{
+    display:block;
+}
+
+ul.nav-level-2:hover{
+    display:block;
+}
+
+ul.nav-level-2 li:hover{
+    background-color:rgba(255, 255, 255, 1.0);
+}
+
+ul.nav-level-3{
+    list-style-type:none;
+    display:none;
+    width:50%;
+    top:0px;
+    position:absolute;
+    z-index:inherit;
+    border:inherit;
+    border-style:inherit;
+    background-color:inherit;
+}
+
+ul.nav-level-2 li:hover + ul.nav-level-3{
+    display:block;
+}
+
+ul.nav-level-3:hover{
+    display:block;
+}
+
+/*Articles*/
+article{
+    margin-left:10px;
+    margin-right:20px;
+}
+
+article p{
+    text-align:justify;
+    text-justify:distribute;
+    font-size:large;
+}
+
+/*Footer*/
+footer{
+    font-size:small;
+}
+
+/*Links*/
+a{
+    text-decoration-line:none;
+}
+
+a:link{
+    color:green;
+}
+
+a:visited{
+    color:brown;
+}
+
+/*Galleries*/
+div.gallery{
+    text-align:center;
+}

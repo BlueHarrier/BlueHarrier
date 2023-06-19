@@ -1,0 +1,27 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+
+p {
+    color:gray;
+}
+
+#especial{
+    color:blue;
+}
+
+#varios{
+    border: 1px solid orange;
+}
+
+li{
+    color:red;
+}
+
+li li{
+    color:green;
+}
+
+* img{
+    border: 5px solid black;
+}

@@ -1,0 +1,57 @@
+<personaje>
+	<nombre>Mick</nombre>
+	<nivel>3</nivel>
+	<experiencia>2.500</experiencia>
+	<clase>Guerrero</clase>
+	<raza>Humano</raza>
+	<don>Portador de La Llave</don>
+	<trasfondo>Buscavidas</trasfondo>
+	<jugador>John Doe</jugador>
+	<características>
+		<dibujo>[URL]</dibujo>
+		<aspiraciones>Ser el mejor guerrero de Pangea</aspiraciones>
+		<temores>La muerte, las alturas y los dragones</temores>
+		<historia>En un lugar del desierto de Saharu...</historia>
+	</características>
+	<atributos>
+		<fuerza>12</fuerza>
+		<destreza>7</destreza>
+		<inteligencia>6</inteligencia>
+		<sabiduría>7</sabiduría>
+		<encanto>9</encanto>
+		<engaño>10</engaño>
+		<vitalidad>14</vitalidad>
+		<subterfugio>5</subterfugio>
+	</atributos>
+	<saber>
+		<conocimiento>Conoce la historia y leyendas de su aldea...</conocimiento>
+		<idiomas>Kifraní</idiomas>
+	</saber>
+	<estado>
+		<salud>36</salud>
+		<energía>14</energía>
+		<poder>4</poder>
+		<velocidad>3</velocidad>
+		<protección>5</protección>
+	</estado>
+	<arsenal>
+		<armadura>
+			<nombre>Armadura de placas</nombre>
+			<protección>5</protección>
+		</armadura>
+		<arma1>
+			<nombre>Hacha de guerra</nombre>
+			<tipo>Cuerpo a cuerpo</tipo>
+			<daño>18</daño>
+			<peso>4</peso>
+		</arma1>
+		<arma2>[...]</arma2>
+		<arma3>[...]</arma3>
+		<talentos>Valiente, lucha con hacha</talentos>
+	</arsenal>
+	<inventario>
+		<utilidades>Poción de vida x3</utilidades>
+		<bolsa>Trozo de pedernal y hierro</bolsa>
+		<monedas>3 doblones de oro</monedas>
+	</inventario>
+</personaje>

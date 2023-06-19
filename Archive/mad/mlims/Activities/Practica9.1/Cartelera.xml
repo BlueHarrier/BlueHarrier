@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cartelera>
+	<pelicula>
+		<titulo>TRON</titulo>
+		<original>"Tron", EEUU, 1982, 96 min</original>
+		<actores>
+			<actor>Jeff Bridges</actor>
+			<actor>Bruce Boxleitner</actor>
+			<actor>...</actor>
+		</actores>
+		<sinopsis>
+			Kevin Flynn es un programador...
+		</sinopsis>
+		<web>www.tron.com</web>
+		<generos>
+			<genero>Ciencia ficción</genero>
+			<género>+7</género>
+		</generos>
+	</pelicula>
+
+	<pelicula>
+		<titulo>El Cuerpo</titulo>
+		<actores>
+			<actor>Hugo Silva</actor>
+			<actor>Belén Rueda</actor>
+			<actor>...</actor>
+		</actores>
+		<sinopsis>
+			El cadáver de una mujer...
+		</sinopsis>
+		<generos>
+			<genero>Thriller</genero>
+			<género>+16</género>
+		</generos>
+	</pelicula>
+
+	<pelicula>
+		<titulo>Amores Perros</titulo>
+		<actores>
+			<actor>Gael García Bernal</actor>
+			<actor>Adriana Barraza</actor>
+			<actor>...</actor>
+		</actores>
+		<sinopsis>
+			La película se divide en tres subhistorias cuyos...
+		</sinopsis>
+		<generos>
+			<genero>Drama</genero>
+			<genero>Suspense</genero>
+			<género>+18</género>
+		</generos>
+		<imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Amores-perros-logo.svg/270px-Amores-perros-logo.svg.png</imagen>
+	</pelicula>
+
+	<pelicula>
+		<titulo>Al Filo del Mañana</titulo>
+		<original>"Edge of Tomorrow", EEUU, 2014, 113 min</original>
+		<actores>
+			<actor>Tom Cruise</actor>
+			<actor>Emily Blunt</actor>
+			<actor>...</actor>
+		</actores>
+		<sinopsis>
+			En un futuro cercano, una invasión extraterrestre...
+		</sinopsis>
+		<generos>
+			<genero>Acción</genero>
+			<genero>Ciencia ficción</genero>
+			<género>+16</género>
+		</generos>
+		<web>es.wikipedia.org/wiki/Al_filo_del_mañana</web>
+		<imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Edge_of_Tomorrow_Logo.jpg/270px-Edge_of_Tomorrow_Logo.jpg</imagen>
+	</pelicula>
+
+	<pelicula>
+		<titulo>Bienvenidos a Zombieland</titulo>
+		<original>"Zombieland", EEUU, 2009, 88 min</original>
+		<actores>
+			<actor>Woody Harrelson</actor>
+			<actor>Jesse Eisenberg</actor>
+			<actor>...</actor>
+		</actores>
+		<sinopsis>
+			La película se ambienta en Estados Unidos en un mundo posapocalíptico...
+		</sinopsis>
+		<generos>
+			<genero>Comedia</genero>
+			<genero>Acción</genero>
+			<genero>Zombis</genero>
+			<género>+13</género>
+		</generos>
+		<web>es.wikipedia.org/wiki/Zombieland</web>
+	</pelicula>
+</cartelera>

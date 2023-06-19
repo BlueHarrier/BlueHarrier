@@ -1,0 +1,5 @@
+<!DOCTYPE aviso[
+	<!ELEMENT aviso (parrafo+, grafico*)>
+	<!ELEMENT parrafo (#PCDATA)>
+	<!ELEMENT grafico (#PCDATA)>
+]>

@@ -1,0 +1,192 @@
+* {
+    font-size:13px;
+    color:darkblue;
+    border-color: gray;
+}
+
+body {
+    background-image: url(../img/fondo.gif);
+}
+
+span.full_dec{
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#contenedor {
+    width:900px;
+    margin:auto;
+}
+
+header {
+    height:120px;
+    background-color:rgb(171, 227, 227);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#home {
+    padding-left: 20px;
+    padding-top: 90px;
+}
+
+#home a {
+    display: block;
+    width: 50px;
+    float: left;
+}
+
+#home a:link{
+    color: yellow;
+    text-decoration: none;
+}
+
+#home a:visited{
+    color: yellow;
+    text-decoration: none;
+}
+
+#home-img {
+    padding:0;
+    margin:0;
+    height: 120px;
+    float:right;
+}
+
+#body {
+    background-color:white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow:auto;
+}
+
+#sidebar {
+    width:280px;
+    padding-left: 20px;
+    float:left;
+}
+
+#sidebar nav{
+    margin-top:20px;
+    height:75px;
+    border-style: inset;
+}
+
+#sidebar nav form{
+    text-align:center;
+    margin-top: 25px;
+    vertical-align:middle;
+}
+
+#sidebar div{
+    margin-top:25px;
+}
+
+#sidebar div h2{
+    display: table-cell;
+    width: 280px;
+    height: 40px;
+    padding-left:10px;
+    background-image: url(../img/fondoH2Sidebarg.jpg);
+    font-size:large;
+    vertical-align: middle;
+    color:yellow;
+}
+
+#sidebar table{
+    margin-top:25px;
+    width:100%;
+    text-align: center;
+}
+
+#sidebar table thead td{
+    background-color: rgb(171, 227, 227);
+    color:white;
+}
+
+#sidebar table thead tr:first-child td{
+    color:darkblue;
+}
+
+#sidebar table tbody td {
+    border-collapse:collapse;
+    border-style:solid;
+    border-color:cyan;
+    border-width: 1px;
+}
+
+#sidebar table tbody tr.resaltado td{
+    background-color: rgb(184, 218, 218);
+}
+
+#sidebar table tfoot {
+    text-align: left;
+}
+
+#sidebar a:link{
+    color:cyan;
+}
+
+#sidebar a:visited{
+    color:cyan;
+}
+
+#content {
+    width:550px;
+    float:right;
+    margin-right: 5px;
+}
+
+#content div{
+    margin-top:25px;
+    padding:5px;
+    border-style:outset;
+}
+
+#content div h2{
+    display: table-cell;
+    width:530px;
+    height:40px;
+    background-image: url(../img/fondoH2.jpg);
+    height: 40px;
+    padding-left:10px;
+    font-size:large;
+    vertical-align: middle;
+    color:yellow;
+}
+
+footer > *{
+    display:block;
+    width:33%;
+    margin:auto;
+    padding-top:10px;
+    padding-bottom: 100px;
+    color:white;
+}
+
+footer a:link {
+    color:darkturquoise;
+}
+
+footer a:visited {
+    color:darkturquoise;
+}
+
+footer #lmsgi {
+    text-align: left;
+    float:left;
+}
+
+footer #year {
+    text-align: center;
+    float:left;
+}
+
+footer #school {
+    text-align: right;
+    float:right
+}
+
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE channel[
+    <!ELEMENT channel (item*)>
+    <!ELEMENT item (title, description?, language?, image?)>
+        <!ATTLIST item link CDATA #REQUIRED>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT language (#PCDATA)>
+    <!ELEMENT image (#PCDATA)>
+        <!ATTLIST image width CDATA #REQUIRED>
+        <!ATTLIST image height CDATA #REQUIRED>
+]>
+
+<channel>
+    <item link="http://www.tublog.com">
+        <title>Titulo del Canal</title>
+        <description>Descripción del canal de tu blog</description>
+        <language>es-ES</language>
+    </item>
+
+    <item link="http://www.tublog.com">
+        <title>Imagen</title>
+        <image width="90" height="36"/>
+    </item>
+
+    <item link="http://www.tublog.com/ruta/articulo/primero.html">
+        <title>Titulo del primer artí­culo</title>
+        <description>Un resumen del contenido de la entrada. Puede ser de dos lí­neas como mí­nimo.     </description>
+    </item>
+
+</channel>

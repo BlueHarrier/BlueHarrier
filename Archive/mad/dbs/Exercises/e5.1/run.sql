@@ -1,0 +1,55 @@
+#-- Utilizar base de datos
+USE 23_db_Daniel;
+
+#-- Limpiar
+DELETE FROM P3_CONTRATO
+    WHERE NIF = "12345678Z";
+
+DELETE FROM P3_TRABAJADOR
+    WHERE NIF = "12345678Z";
+
+DELETE FROM P3_EMPRESA
+    WHERE CIF = "13245678Z";
+
+#-- Apartado 1
+INSERT INTO P3_EMPRESA 
+    VALUES ("13245678Z", "Mi Primera Empresa", "c\\Menacho", 06001, "Badajoz", 12345678910, 999887766);
+
+SELECT *
+    FROM P3_EMPRESA
+    WHERE CIF = "13245678Z";
+
+#-- Apartado 2
+INSERT INTO P3_TRABAJADOR
+    VALUE ("12345678Z", "Manolo", "Algo", "Algo", 123456789, 123456789, 1, 4);
+
+SELECT NIF, nombre, ape1, ape2, tlf, nss, P3_CAT.nombreCat, P3_COT.grupo
+    FROM P3_TRABAJADOR
+    LEFT JOIN P3_CAT
+    ON P3_CAT.ID = catID
+    INNER JOIN P3_COT
+    ON P3_COT.ID = cotID
+    WHERE NIF = "12345678Z";
+
+#-- Apartado 3
+INSERT INTO P3_CONTRATO (fAlta, fBaja, codContrato, NIF, CIF)
+    VALUES
+    ("2023-01-18", NULL, 100, "12345678Z", "13245678Z"),
+    ("2022-09-01", "2023-01-18", 420, "12345678Z", "13245678Z");
+
+SELECT numContrato, fAlta, fBaja, P3_TCONTRATO.nombre, NIF, CIF
+    FROM P3_CONTRATO
+    NATURAL JOIN P3_TCONTRATO
+    WHERE NIF = "12345678Z";
+
+#-- Apartado 4
+REPLACE INTO P3_TRABAJADOR
+    VALUES ("87654321Z", "Paco", "Something", "Something", 987654321, 987654321, 2, 3);
+
+SELECT NIF, nombre, ape1, ape2, tlf, nss, P3_CAT.nombreCat, P3_COT.grupo
+    FROM P3_TRABAJADOR
+    LEFT JOIN P3_CAT
+    ON P3_CAT.ID = catID
+    INNER JOIN P3_COT
+    ON P3_COT.ID = cotID
+    WHERE NIF = "87654321Z";

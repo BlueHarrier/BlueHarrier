@@ -1,0 +1,51 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+#logo{
+    width: 100px;
+}
+#primerdiv{
+    background-color: white;
+    border-radius: 20px;
+}
+#divtabla{
+    background-color: white;
+    border-radius: 20px;
+}
+.enlacescabecera{
+    float: right;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+#seccion-formulario{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+#formulario{
+    margin-left: 40%;
+}
+table{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+table img{
+    width: 300px;
+}
+table td{
+    border:1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+}
+#image{
+    width: 15%;
+}
+#text{
+    font-size: 25px;
+}

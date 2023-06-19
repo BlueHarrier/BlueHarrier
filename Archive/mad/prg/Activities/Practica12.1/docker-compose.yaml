@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  web:
+    image: "tomcat:jdk17-openjdk"
+    volumes:
+      - ./tomcat/:/usr/local/tomcat/webapps/
+    ports:
+      - "8080:8080"

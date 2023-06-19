@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TParkDB</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/jpg" href="images/favicon_sin_fondo.png"/>
+</head>
+<body>
+    <header>
+        <div id="primerdiv">
+            <a href="index.html"><img id="logo" src="images/Logo.png"></a>
+            <a href="register.html" class="enlacescabecera">Register</a>
+            <a href="login.html" class="enlacescabecera">Login</a>
+        </div>
+    </header>
+    <section id="seccion-formulario">
+        <form action="/searcher.php" method="post" id="formulario">
+            <select name="type">
+                <option value="0">Parque</option>
+                <option value="1">Atracción</option>
+            </select>
+            <input type="search" name="prompt">
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>
+        &#169; Diego José Guerra Garduño, Daniel Píriz Cacho, José Correa Fadis
+    </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+ESTILOS EJERCICIO Nº 1
+
+H1
+ * Tamaño 2.5em
+ *Alineación:centro
+ *Color de fondo #EECFAI
+ *Relleno:0.5em 1em
+ *Margenes:0 5%
+
+P
+ *Color:black
+ *Fuente:Georgia, "Times New Roman",serif
+ *Tamaño:x-small
+ *Espacios entre palagras:1cm
+
+ Cambiar etiqueta span descendiente de p:
+ *color: verde
+ *Subrayado: normal
+ *fuente: 1.2em
