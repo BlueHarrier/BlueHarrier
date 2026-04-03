@@ -42,7 +42,7 @@ I've always been passionate about rendering and 3D graphics. Between 2018 and 20
 
 ![Hourglass framework early stage](./img/hg01.jpg)
 
-This framework supported 3D object systems, PBR materials, opaque and tinted shadows, lighting, static and dynamic objects and reflections.
+This framework supported 3D object systems, multilayered materials, opaque and tinted shadows, lighting, static and dynamic objects and reflections.
 
 ![Hourglass framework current state](./img/hg02.jpg)
 
