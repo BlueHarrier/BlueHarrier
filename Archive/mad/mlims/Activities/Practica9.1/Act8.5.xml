@@ -1,8 +1,0 @@
-<!DOCTYPE receta[
-	<!ELEMENT aviso (parrafo+, titulo, ingredientes, procedimiento)>
-	<!ELEMENT parrafo (#PCDATA)>
-	<!ELEMENT titulo (#PCDATA)>
-	<!ELEMENT ingredientes (ingrediente*)>
-	<!ELEMENT ingrediente (#PCDATA)>
-	<!ELEMENT procedimiento (#PCDATA)>
-]>

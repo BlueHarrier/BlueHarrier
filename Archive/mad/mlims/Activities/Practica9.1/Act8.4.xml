@@ -1,6 +1,0 @@
-<!DOCTYPE aviso[
-	<!ELEMENT aviso (titulo, parrafo+, grafico*)>
-	<!ELEMENT titulo (#PCDATA)>
-	<!ELEMENT parrafo (#PCDATA)>
-	<!ELEMENT grafico (#PCDATA)>
-]>

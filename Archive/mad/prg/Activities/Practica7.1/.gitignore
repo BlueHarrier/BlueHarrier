@@ -1,3 +1,0 @@
-# Ignorar todos los archivos txt menos la plantilla de la carta
-*.txt
-!carta.txt
